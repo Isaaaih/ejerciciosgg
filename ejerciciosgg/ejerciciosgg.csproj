@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A0A2CF6-1F35-4703-8982-B05E909DC973}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ejerciciosgg</RootNamespace>
+    <AssemblyName>ejerciciosgg</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\Form1.Designer.cs" />
+    <Compile Include="formas\formachicharronera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\formachicharronera.Designer.cs">
+      <DependentUpon>formachicharronera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\formaconversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\formaconversion.Designer.cs">
+      <DependentUpon>formaconversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\formacorazon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\formacorazon.Designer.cs">
+      <DependentUpon>formacorazon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\formatriangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\formatriangulo.Designer.cs">
+      <DependentUpon>formatriangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\Desktop\ejercicios\salario.cs">
+      <SubType>Form</SubType>
+      <Link>formas\salario.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Desktop\ejercicios\salario.Designer.cs">
+      <DependentUpon>salario.cs</DependentUpon>
+      <Link>formas\salario.Designer.cs</Link>
+    </Compile>
+    <Compile Include="formas\Program.cs" />
+    <Compile Include="formas\Visorimagenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\Visorimagenes.designer.cs">
+      <DependentUpon>Visorimagenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formas\formachicharronera.resx">
+      <DependentUpon>formachicharronera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formas\formaconversion.resx">
+      <DependentUpon>formaconversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formas\formacorazon.resx">
+      <DependentUpon>formacorazon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formas\formatriangulo.resx">
+      <DependentUpon>formatriangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\Desktop\ejercicios\salario.resx">
+      <DependentUpon>salario.cs</DependentUpon>
+      <Link>formas\salario.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formas\Visorimagenes.resx">
+      <DependentUpon>Visorimagenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WIN_20230928_10_58_13_Pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-28 123416.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imágenes, comics, memes [Kagehina] - 01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ae24303c-7183-40f1-a51f-2928ddd4100e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WIN_20230928_10_57_58_Pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WIN_20230929_09_36_53_Pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50 Minimalist Desktop Wallpapers and Backgrounds %282022 Edition%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50 Minimalist Desktop Wallpapers and Backgrounds %282022 Edition%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño De Fondo De Forma Abstracta De Color Blanco Y Azul Para Banner De Negocios, Antecedentes, Blanco, Azul Imagen de Fondo Para Descarga Gratuita - Pngtreee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\961771.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-de-pantalla-minimalista-fondo-de-pantalla-panoramica-de-minimalista-wp-wf-69-350x197.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
