@@ -117,47 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="WIN_20230928_10_58_13_Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WIN_20230928_10_58_13_Pro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fondo-de-pantalla-minimalista-fondo-de-pantalla-panoramica-de-minimalista-wp-wf-69-350x197" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondo-de-pantalla-minimalista-fondo-de-pantalla-panoramica-de-minimalista-wp-wf-69-350x197.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="50 Minimalist Desktop Wallpapers and Backgrounds (2022 Edition)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\50 Minimalist Desktop Wallpapers and Backgrounds (2022 Edition).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="961771" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\961771.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2023-09-28 123416" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2023-09-28 123416.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Imágenes, comics, memes [Kagehina] - 01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Imágenes, comics, memes [Kagehina] - 01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WIN_20230929_09_36_53_Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WIN_20230929_09_36_53_Pro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Diseño De Fondo De Forma Abstracta De Color Blanco Y Azul Para Banner De Negocios, Antecedentes, Blanco, Azul Imagen de Fondo Para Descarga Gratuita - Pngtreee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño De Fondo De Forma Abstracta De Color Blanco Y Azul Para Banner De Negocios, Antecedentes, Blanco, Azul Imagen de Fondo Para Descarga Gratuita - Pngtreee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="50 Minimalist Desktop Wallpapers and Backgrounds (2022 Edition)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\50 Minimalist Desktop Wallpapers and Backgrounds (2022 Edition)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WIN_20230928_10_57_58_Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WIN_20230928_10_57_58_Pro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imagen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ae24303c-7183-40f1-a51f-2928ddd4100e" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ae24303c-7183-40f1-a51f-2928ddd4100e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

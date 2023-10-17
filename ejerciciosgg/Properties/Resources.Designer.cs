@@ -113,6 +113,16 @@ namespace ejerciciosgg.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga {
+            get {
+                object obj = ResourceManager.GetObject("descarga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Diseño_De_Fondo_De_Forma_Abstracta_De_Color_Blanco_Y_Azul_Para_Banner_De_Negocios__Antecedentes__Blanco__Azul_Imagen_de_Fondo_Para_Descarga_Gratuita___Pngtreee {
             get {
                 object obj = ResourceManager.GetObject("Diseño De Fondo De Forma Abstracta De Color Blanco Y Azul Para Banner De Negocios" +
@@ -148,6 +158,16 @@ namespace ejerciciosgg.Properties {
         internal static System.Drawing.Bitmap Imágenes__comics__memes__Kagehina____01 {
             get {
                 object obj = ResourceManager.GetObject("Imágenes, comics, memes [Kagehina] - 01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap info {
+            get {
+                object obj = ResourceManager.GetObject("info", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

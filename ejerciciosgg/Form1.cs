@@ -81,5 +81,11 @@ namespace ejerciciosgg
         {
 
         }
+
+        private void quizToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaQuiz forma = new FormaQuiz();
+            forma.Show();
+        }
     }
 }

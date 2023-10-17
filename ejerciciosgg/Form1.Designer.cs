@@ -38,6 +38,7 @@ namespace ejerciciosgg
             this.chicharroneraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejerciciosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureViewerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quizToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,7 +107,8 @@ namespace ejerciciosgg
             // ejerciciosToolStripMenuItem1
             // 
             this.ejerciciosToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pictureViewerToolStripMenuItem});
+            this.pictureViewerToolStripMenuItem,
+            this.quizToolStripMenuItem});
             this.ejerciciosToolStripMenuItem1.Name = "ejerciciosToolStripMenuItem1";
             this.ejerciciosToolStripMenuItem1.Size = new System.Drawing.Size(93, 29);
             this.ejerciciosToolStripMenuItem1.Text = "Guiados";
@@ -118,6 +120,13 @@ namespace ejerciciosgg
             this.pictureViewerToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.pictureViewerToolStripMenuItem.Text = "Picture Viewer";
             this.pictureViewerToolStripMenuItem.Click += new System.EventHandler(this.pictureViewerToolStripMenuItem_Click);
+            // 
+            // quizToolStripMenuItem
+            // 
+            this.quizToolStripMenuItem.Name = "quizToolStripMenuItem";
+            this.quizToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.quizToolStripMenuItem.Text = "Quiz";
+            this.quizToolStripMenuItem.Click += new System.EventHandler(this.quizToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -150,6 +159,7 @@ namespace ejerciciosgg
         private System.Windows.Forms.ToolStripMenuItem chicharroneraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejerciciosToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem pictureViewerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quizToolStripMenuItem;
     }
 }
 

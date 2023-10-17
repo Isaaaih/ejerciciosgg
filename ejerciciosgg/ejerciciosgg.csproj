@@ -74,6 +74,24 @@
     <Compile Include="formas\formacorazon.Designer.cs">
       <DependentUpon>formacorazon.cs</DependentUpon>
     </Compile>
+    <Compile Include="formas\Formacreditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\Formacreditos.Designer.cs">
+      <DependentUpon>Formacreditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\FormaLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\FormaLink.Designer.cs">
+      <DependentUpon>FormaLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\FormaQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\FormaQuiz.Designer.cs">
+      <DependentUpon>FormaQuiz.cs</DependentUpon>
+    </Compile>
     <Compile Include="formas\formatriangulo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +105,12 @@
     <Compile Include="..\..\..\..\Desktop\ejercicios\salario.Designer.cs">
       <DependentUpon>salario.cs</DependentUpon>
       <Link>formas\salario.Designer.cs</Link>
+    </Compile>
+    <Compile Include="formas\Informacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\Informacion.Designer.cs">
+      <DependentUpon>Informacion.cs</DependentUpon>
     </Compile>
     <Compile Include="formas\Program.cs" />
     <Compile Include="formas\Visorimagenes.cs">
@@ -109,12 +133,24 @@
     <EmbeddedResource Include="formas\formacorazon.resx">
       <DependentUpon>formacorazon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formas\Formacreditos.resx">
+      <DependentUpon>Formacreditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formas\FormaLink.resx">
+      <DependentUpon>FormaLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formas\FormaQuiz.resx">
+      <DependentUpon>FormaQuiz.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formas\formatriangulo.resx">
       <DependentUpon>formatriangulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="..\..\..\..\Desktop\ejercicios\salario.resx">
       <DependentUpon>salario.cs</DependentUpon>
       <Link>formas\salario.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formas\Informacion.resx">
+      <DependentUpon>Informacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formas\Visorimagenes.resx">
       <DependentUpon>Visorimagenes.cs</DependentUpon>
@@ -177,6 +213,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fondo-de-pantalla-minimalista-fondo-de-pantalla-panoramica-de-minimalista-wp-wf-69-350x197.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
